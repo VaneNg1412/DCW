@@ -98,7 +98,7 @@ h1{
 #search i:hover{
 	background-color: #FF2B49;
 }
-#projects{
+.projects{
 	width: 100%;
 	height: 500px;
 	background-image: url("../Images/Project.png");
@@ -150,14 +150,14 @@ h1{
 	color: #FF2B49;
 	text-decoration: underline;
 }
-#articles{
+.articles{
 	width: 100%;
 	height: 650px;
 	background-color: white;
 	padding: 40px;
 	box-sizing: border-box;
 }
-#articles h2{
+.articles h2{
 	text-align: center;
 	font-family: 'Poppins', sans-serif;
 	font-size: 40px;
@@ -165,7 +165,7 @@ h1{
 	color: #FF2B49;
 	background-color: transparent;
 }
-#articles a{
+.articles a{
 	color: #FF2B49;
 	font-family: 'Montserrat', sans-serif;
 	text-align: right;
@@ -180,7 +180,7 @@ h1{
 	width: 1000px;
 	margin: 0 auto;
 }
-#articles a:hover{
+.articles a:hover{
 	color: #333333;
 	text-decoration: underline;
 }
@@ -206,10 +206,10 @@ h1{
 }
 .text h2{
 	font-family: 'Montserrat', sans-serif;
-	font-size: 30px;
 	text-align: left;
 	margin: 12px;
-	font-weight: 700;
+	font-size: 30px;
+	font-weight: normal;
 }
 .text p{
 	margin: 12px;
@@ -229,13 +229,13 @@ h1{
 	color: #333333;
 	text-decoration: underline;
 }
-#about-us{
+.about-us{
 	width: 100%;
 	height: 600px;
 	background-image: url("../Images/about.png");
 	background-size: cover;
 }
-#about-us img{
+.about-us img{
 	margin: 0 50px;
 	background-color: transparent;
 }
@@ -243,7 +243,7 @@ h1{
 	width: 40%;
 	float: right;
 	background-color: transparent;
-	padding: 200px 50px;
+	padding: 150px 50px;
 }
 .content-2 h2{
 	font-family: 'Urbanist', sans-serif;
@@ -261,7 +261,7 @@ h1{
 	color: #333333;
 	background-color: transparent;
 }
-#FAQ{
+.FAQ{
 	width: 100%;
 	height: 650px;
 	background-image: url("../Images/FAQ.png");
